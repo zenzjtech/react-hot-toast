@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { DefaultToastOptions, Toast, ToastType } from './types';
 
-const TOAST_LIMIT = 20;
+const TOAST_LIMIT = 200;
 
 export enum ActionType {
   ADD_TOAST,
